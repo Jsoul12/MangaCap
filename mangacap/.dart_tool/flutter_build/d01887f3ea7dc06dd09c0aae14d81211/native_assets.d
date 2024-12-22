@@ -1,0 +1,1 @@
+ C:\\Users\\jm238\\Downloads\\mangacapp\\mangacap\\.dart_tool\\flutter_build\\d01887f3ea7dc06dd09c0aae14d81211\\native_assets.yaml: 

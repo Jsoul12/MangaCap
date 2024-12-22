@@ -1,0 +1,28 @@
+^C:\USERS\JM238\DOWNLOADS\MANGACAPP\MANGACAP\BUILD\WINDOWS\X64\CMAKEFILES\6C9D5DE9A939BCAFCCA2FDC849C57289\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\dev\flutter PROJECT_DIR=C:\Users\jm238\Downloads\mangacapp\mangacap FLUTTER_ROOT=C:\dev\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\jm238\Downloads\mangacapp\mangacap\windows\flutter\ephemeral PROJECT_DIR=C:\Users\jm238\Downloads\mangacapp\mangacap FLUTTER_TARGET=C:\Users\jm238\Downloads\mangacapp\mangacap\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\jm238\Downloads\mangacapp\mangacap\.dart_tool\package_config.json C:/dev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JM238\DOWNLOADS\MANGACAPP\MANGACAP\BUILD\WINDOWS\X64\CMAKEFILES\388379C87B72BF70851DE16D0E1166AC\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JM238\DOWNLOADS\MANGACAPP\MANGACAP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jm238/Downloads/mangacapp/mangacap/windows -BC:/Users/jm238/Downloads/mangacapp/mangacap/build/windows/x64 --check-stamp-file C:/Users/jm238/Downloads/mangacapp/mangacap/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

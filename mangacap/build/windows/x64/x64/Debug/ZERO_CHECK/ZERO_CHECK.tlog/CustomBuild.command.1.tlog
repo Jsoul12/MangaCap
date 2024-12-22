@@ -1,0 +1,10 @@
+^C:\USERS\JM238\DOWNLOADS\MANGACAPP\MANGACAP\BUILD\WINDOWS\X64\CMAKEFILES\EB7A7A3CF9D2396C078872B8207685B5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jm238/Downloads/mangacapp/mangacap/windows -BC:/Users/jm238/Downloads/mangacapp/mangacap/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jm238/Downloads/mangacapp/mangacap/build/windows/x64/mangacap.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

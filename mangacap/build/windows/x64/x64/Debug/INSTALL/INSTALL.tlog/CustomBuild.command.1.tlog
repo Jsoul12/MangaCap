@@ -1,0 +1,10 @@
+^C:\USERS\JM238\DOWNLOADS\MANGACAPP\MANGACAP\BUILD\WINDOWS\X64\CMAKEFILES\EB7A7A3CF9D2396C078872B8207685B5\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
